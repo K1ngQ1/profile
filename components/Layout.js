@@ -1,6 +1,4 @@
-//next component imports
-import Link from "next/link";
-import Head from "next/head";
+
 
 //component import
 import Header from "./Header.js";
@@ -10,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Layout = (props) => (
     <div>
-        <Head>
+        <head>
             {/* link to bootstrap css */}
             <link
                 rel="stylesheet"
@@ -18,7 +16,7 @@ const Layout = (props) => (
                 integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
                 crossorigin="anonymous"
             />
-        </Head>
+        </head>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-D55H6C188F"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
