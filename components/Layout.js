@@ -19,6 +19,11 @@ const Layout = (props) => (
                 crossorigin="anonymous"
             />
         </Head>
+        <script>
+            window.dataLayer = window.dataLayer || []; function gtag()
+            {dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config',
+            'G-D55H6C188F');
+        </script>
 
         {/* globale styling with jsx-styling */}
         <style jsx global>
@@ -87,11 +92,7 @@ const Layout = (props) => (
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-D55H6C188F"
         ></script>
-        <script>
-            window.dataLayer = window.dataLayer || []; function gtag()
-            {dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config',
-            'G-D55H6C188F');
-        </script>
+        
     </div>
 );
 
