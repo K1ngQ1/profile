@@ -20,9 +20,9 @@ const Layout = (props) => (
             />
         </Head>
         <script>
-            window.dataLayer = window.dataLayer || []; function gtag()
-            {dataLayer.push(arguments)}; gtag('js', new Date()); gtag('config',
-            'G-D55H6C188F');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date()); gtag('config','G-D55H6C188F');
         </script>
 
         {/* globale styling with jsx-styling */}
