@@ -93,7 +93,7 @@ const Layout = (props) => (
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-D55H6C188F"
         ></script>
-    </div>
+    </>
 );
 
 export default Layout;
