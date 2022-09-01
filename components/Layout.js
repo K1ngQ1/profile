@@ -39,7 +39,7 @@ const Layout = (props) => (
                     border: 1px solid #ddd;
                     // background-color: black;
                 }
-                body::before {
+                body::before{
                     background-color: black;
                     content: "";
                     background-image: url("/static/images/bg.jpg");
