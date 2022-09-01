@@ -14,7 +14,7 @@ const Layout = (props) => (
             <script>
                 window.dataLayer = window.dataLayer || []; function gtag()
                 {dataLayer.push(arguments)}; gtag('js', new Date());
-                gtag('config','G-D55H6C188F', {page_path: window.location.pathname});
+                gtag('config','G-D55H6C188F', {page_path= window.location.pathname});
             </script>
             {/* link to bootstrap css */}
             <link
