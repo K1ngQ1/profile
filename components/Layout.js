@@ -82,6 +82,16 @@ const Layout = (props) => (
     ></script>
 
     <script>var Alert = ReactBootstrap.Alert;</script>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D55H6C188F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D55H6C188F');
+</script>
+    
   </div>
 );
 
