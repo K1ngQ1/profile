@@ -13,7 +13,7 @@ const Layout = (props) => (
             ></script>
             <script>
                 window.dataLayer = window.dataLayer || []; function gtag()
-                {window.dataLayer.push(arguments)}; gtag('js', new Date());
+                {dataLayer.push(arguments)}; gtag('js', new Date());
                 gtag('config','G-D55H6C188F');
             </script>
             {/* link to bootstrap css */}
