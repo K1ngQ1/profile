@@ -19,6 +19,7 @@ const Layout = (props) => (
                 crossorigin="anonymous"
             />
         </Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D55H6C188F"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments)};
