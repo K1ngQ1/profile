@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Layout = (props) => (
     <>
+        <head>
             <script
                 async
                 src="https://www.googletagmanager.com/gtag/js?id=G-D55H6C188F"
@@ -16,7 +17,6 @@ const Layout = (props) => (
                 gtag('js', new Date());
                 gtag('config','G-D55H6C188F', {page_path= window.location.pathname});
             </script>
-        <head>
             {/* link to bootstrap css */}
             <link
                 rel="stylesheet"
