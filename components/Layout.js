@@ -7,6 +7,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Layout = (props) => (
     <div>
         <head>
+            <script
+                async
+                src="https://www.googletagmanager.com/gtag/js?id=G-D55H6C188F"
+            ></script>
+            <script>
+                window.dataLayer = window.dataLayer || []; function gtag()
+                {window.dataLayer.push(arguments)}; gtag('js', new Date());
+                gtag('config','G-D55H6C188F');
+            </script>
             {/* link to bootstrap css */}
             <link
                 rel="stylesheet"
@@ -15,15 +24,6 @@ const Layout = (props) => (
                 crossorigin="anonymous"
             />
         </head>
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-D55H6C188F"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || []; function gtag()
-            {window.dataLayer.push(arguments)}; gtag('js', new Date());
-            gtag('config','G-D55H6C188F');
-        </script>
 
         {/* globale styling with jsx-styling */}
         <style jsx global>
@@ -39,7 +39,7 @@ const Layout = (props) => (
                     border: 1px solid #ddd;
                     // background-color: black;
                 }
-                body::before{
+                body::before {
                     background-color: black;
                     content: "";
                     background-image: url("/static/images/bg.jpg");
