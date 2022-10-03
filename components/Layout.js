@@ -5,8 +5,9 @@ import Header from "./Header.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Layout = (props) => (
-    <div>
+    <>
         <head>
+
             {/* link to bootstrap css */}
             <link
                 rel="stylesheet"
@@ -78,7 +79,10 @@ const Layout = (props) => (
         ></script>
 
         <script>var Alert = ReactBootstrap.Alert;</script>
+
     </div>
+    </>
+
 );
 
 export default Layout;
