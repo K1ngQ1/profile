@@ -16,7 +16,7 @@ const Layout = (props) => (
             />
         </head>
 
-        {/* globale styling with jsx-styling */}
+        {/* global styling with jsx-styling */}
         <style jsx global>
             {`
                 //html components
