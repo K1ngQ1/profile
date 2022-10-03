@@ -1,12 +1,13 @@
 //component import
 import Header from "./Header.js";
 import Script from "next/script.js";
+import Head from "next/head.js";
 // bootstrap import
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Layout = (props) => (
     <>
-        <head>
+        <Head>
             {/* link to bootstrap css */}
             <link
                 rel="stylesheet"
@@ -14,7 +15,7 @@ const Layout = (props) => (
                 integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
                 crossOrigin="anonymous"
             />
-        </head>
+        </Head>
 
         {/* global styling with jsx-styling */}
         <style jsx global>
