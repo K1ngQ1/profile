@@ -19,8 +19,6 @@ const Layout = (props) => (
         {/* global styling with jsx-styling */}
         <style jsx global>
             {`
-                //html components
-                //css for body and basic styling of page
                 body {
                     margin-top: 2vh;
                     margin-bottom: 2vh;
@@ -28,7 +26,6 @@ const Layout = (props) => (
                     margin-left: 2vw;
                     padding: 20px;
                     border: 1px solid #ddd;
-                    // background-color: black;
                 }
                 body::before {
                     background-color: black;
@@ -43,14 +40,11 @@ const Layout = (props) => (
                     opacity: 0.4;
                 }
 
-                // class names
                 .mainDiv {
                     position: relative;
                     height: 100%;
                     width: 100%;
                 }
-
-                // id's
             `}
         </style>
 
@@ -64,20 +58,20 @@ const Layout = (props) => (
         {/* bootstrap script imports */}
         <Script
             src="https://unpkg.com/react/umd/react.production.min.js"
-            crossorigin
+            crossOrigin
         ></Script>
 
         <Script
             src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-            crossorigin
+            crossOrigin
         ></Script>
 
         <Script
             src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-            crossorigin
+            crossOrigin
         ></Script>
 
-        <Script>var Alert = ReactBootstrap.Alert;</Script>
+        {/* <Script>var Alert = ReactBootstrap.Alert;</Script> */}
     </>
 );
 
