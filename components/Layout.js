@@ -1,6 +1,6 @@
 //component import
 import Header from "./Header.js";
-
+import Script from "next/script.js";
 // bootstrap import
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -12,7 +12,7 @@ const Layout = (props) => (
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
                 integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-                crossorigin="anonymous"
+                crossOrigin="anonymous"
             />
         </head>
 
@@ -62,23 +62,22 @@ const Layout = (props) => (
         </div>
 
         {/* bootstrap script imports */}
-        <script
+        <Script
             src="https://unpkg.com/react/umd/react.production.min.js"
             crossorigin
-        ></script>
+        ></Script>
 
-        <script
+        <Script
             src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
             crossorigin
-        ></script>
+        ></Script>
 
-        <script
+        <Script
             src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
             crossorigin
-        ></script>
+        ></Script>
 
-        <script>var Alert = ReactBootstrap.Alert;</script>
-
+        <Script>var Alert = ReactBootstrap.Alert;</Script>
     </>
 );
 
