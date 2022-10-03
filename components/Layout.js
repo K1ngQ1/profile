@@ -7,13 +7,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Layout = (props) => (
     <>
         <head>
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-D55H6C188F"></script>
-            <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments)};
-                gtag('js', new Date());
-                gtag('config','G-D55H6C188F');
-            </script>
             {/* link to bootstrap css */}
             <link
                 rel="stylesheet"
@@ -86,10 +79,6 @@ const Layout = (props) => (
 
         <script>var Alert = ReactBootstrap.Alert;</script>
 
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-D55H6C188F"
-        ></script>
     </>
 );
 
