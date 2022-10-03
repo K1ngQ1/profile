@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 
 import Button from "react-bootstrap/Button";
 
-export default () => (
+const contact = () => (
     <Layout>
         <div>
             <h1>Contact Page</h1>
@@ -17,3 +17,5 @@ export default () => (
         </div>
     </Layout>
 );
+
+export default contact
