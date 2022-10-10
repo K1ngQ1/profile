@@ -59,7 +59,7 @@ const Layout = (props) => (
 
         <Script
             strategy="lazyOnLoad"
-            src={`https://www.googletagmanager.com/gtag/js?id=G-R3TBF0700Y`}
+            src={`https://www.googletagmanager.com/gtag/js?id=UA-239768263-1`}
         />
 
         <Script>
@@ -67,7 +67,7 @@ const Layout = (props) => (
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
                 
-                  gtag('config', 'G-R3TBF0700Y');`}
+                  gtag('config', 'UA-239768263-1');`}
         </Script>
         {/* bootstrap script imports */}
         <Script
