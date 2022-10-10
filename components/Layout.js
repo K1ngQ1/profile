@@ -2,7 +2,6 @@
 import Header from "./Header.js";
 import Script from "next/script.js";
 import Head from "next/head.js";
-import Link from "next/dist/client/link";
 
 // bootstrap import
 import "bootstrap/dist/css/bootstrap.min.css";
