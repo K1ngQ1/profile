@@ -62,7 +62,7 @@ const Layout = (props) => (
             src={`https://www.googletagmanager.com/gtag/js?id=UA-239768263-1`}
         />
 
-        <Script>
+        <Script id="google-analytics" strategy="afterInteractive">
             {`window.dataLayer = window.dataLayer || [];
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
