@@ -1,5 +1,3 @@
-import Link from "next/dist/client/link";
-
 import Layout from "../components/Layout.js";
 
 const index = () => (
@@ -10,7 +8,7 @@ const index = () => (
             <p>
                 Currently studying web development through Hyperion Development.
                 I am passionate about technology and love anything tech related.
-                I am also an avid artist specialising in various mediums
+                I am also an avid artist specializing in various mediums
                 including traditional and digital art.
             </p>
             <p>

@@ -2,6 +2,8 @@
 import Header from "./Header.js";
 import Script from "next/script.js";
 import Head from "next/head.js";
+import Link from "next/dist/client/link";
+
 // bootstrap import
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -9,7 +11,7 @@ const Layout = (props) => (
     <>
         <Head>
             {/* link to bootstrap css */}
-            <link
+            <Link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
                 integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
