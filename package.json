@@ -8,7 +8,7 @@
         "dev": "next",
         "build": "next build",
         "start": "next start",
-        "now-build": "next build && next start",
+        "now-build": "next build",
         "lint": "next lint"
     },
     "keywords": [],
