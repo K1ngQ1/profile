@@ -58,7 +58,7 @@ const Layout = (props) => (
         </div>
 
         <Script
-            strategy="lazyOnLoad"
+            async
             src={`https://www.googletagmanager.com/gtag/js?id=UA-239768263-1`}
         />
 
